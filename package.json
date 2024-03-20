@@ -1,5 +1,19 @@
 {
   "dependencies": {
     "node": "^21.7.1"
+  },
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "package for nodeLearn",
+  "main": "writeReadFromFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon writeReadFromFile.js",
+    "start-server": "node writeReadFromFile.js"
+  },
+  "author": "Nick Hill",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
